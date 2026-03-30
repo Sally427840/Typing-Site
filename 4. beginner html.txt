@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beginner Lessons</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header><h1>Beginner Typing Lessons</h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="intermediate.html">Intermediate</a>
+    <a href="advanced.html">Advanced</a>
+    <a href="test.html">Typing Test</a>
+  </nav>
+  <main>
+    <h2>Lesson 1: Basic Words</h2>
+    <p id="exercise-text">Type this sentence as fast and accurately as you can.</p>
+    <input type="text" id="typing-input" placeholder="Start typing here">
+    <button onclick="startTypingExercise('typing-input')">Start</button>
+  </main>
+</body>
+</html>
