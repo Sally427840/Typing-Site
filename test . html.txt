@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intermediate Lessons</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header><h1>Intermediate Lessons</h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="beginner.html">Beginner</a>
+    <a href="advanced.html">Advanced</a>
+    <a href="test.html">Typing Test</a>
+  </nav>
+  <main>
+    <h2>Lesson 1: Sentences Practice</h2>
+    <p id="exercise-text">Typing is a skill that improves with regular practice and focus.</p>
+    <input type="text" id="typing-input" placeholder="Start typing here">
+    <button onclick="startTypingExercise('typing-input','Typing is a skill that improves with regular practice and focus.')">Start</button>
+  </main>
+</body>
+</html>
